@@ -1,0 +1,11 @@
+--- ./lib/atomlib.php	2010-05-20 13:00:20.000000000 +0300
++++ ./lib/atomlib.php	2010-05-20 12:45:13.000000000 +0300
+@@ -206,7 +244,7 @@
+                     if(count($c) == 3) {
+                         array_push($newcontent, $c[2]);
+                     } else {
+-                        if($this->is_xhtml) {
++                        if($this->is_xhtml || $this->is_text) {
+                             array_push($newcontent, $this->xml_escape($c));
+                         } else {
+                             array_push($newcontent, $c);
