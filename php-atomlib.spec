@@ -11,7 +11,7 @@ Group:		Development/Languages/PHP
 # tar --exclude-vcs -cjf phpatomlib-$(svnversion phpatomlib).tar.bz2 phpatomlib --exclude=feedvalidator-results
 # ../dropin phpatomlib-$(svnversion phpatomlib).tar.bz2 &
 Source0:	phpatomlib-7.tar.bz2
-# Source0-md5:	9dba523c2a8e9d00a1721c079b23ed5e
+# Source0-md5:	5bd976c57a0a8b7a2a3a6c6f6e03ca7b
 Patch0:		istext.patch
 URL:		http://code.google.com/p/phpatomlib/
 BuildRequires:	rpm-build >= 4.4.9-96
