@@ -4,7 +4,7 @@
 Summary:	atomlib.php - Atom Syndication Format PHP Library
 Name:		php-atomlib
 Version:	0.4
-Release:	2
+Release:	3
 License:	Apache v2.0
 Group:		Development/Languages/PHP
 # svn --ignore-externals co http://phpatomlib.googlecode.com/svn/trunk/ phpatomlib
@@ -17,8 +17,8 @@ URL:		http://code.google.com/p/phpatomlib/
 BuildRequires:	rpm-build >= 4.4.9-96
 BuildRequires:	rpm-php-pearprov
 BuildRequires:	rpmbuild(macros) >= 1.461
+Requires:	php(core) >= %{php_min_version}
 Requires:	php(xml)
-Requires:	php-common >= 4:%{php_min_version}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
