@@ -1,6 +1,5 @@
 %define		pkgname		simplepie
 %define		php_min_version 5.0.0
-%include	/usr/lib/rpm/macros.php
 Summary:	atomlib.php - Atom Syndication Format PHP Library
 Name:		php-atomlib
 Version:	0.4
