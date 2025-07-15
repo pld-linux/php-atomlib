@@ -33,7 +33,7 @@ library to efficiently parse Atom Feeds.
 
 %prep
 %setup -q -n phpatomlib
-%patch0 -p1
+%patch -P0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
